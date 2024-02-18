@@ -1,6 +1,6 @@
 {
   platform: "github",
-  repositories: ["stan-stately/renovate-golang-protovalidate-repro"],
+  repositories: ["stan-stately/renovate-go-validate-repro"],
   branchPrefix: "renovate-action/",
   extends: [":disableDependencyDashboard", ":prImmediately", ":rebaseStalePrs"],
   onboarding: false,
