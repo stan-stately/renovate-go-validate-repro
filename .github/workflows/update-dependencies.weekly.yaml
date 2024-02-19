@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.1
       - name: Renovate
-        uses: renovatebot/github-action@v40.0.3
+        uses: renovatebot/github-action@v40.1.0
         with:
           docker-user: root
           renovate-version: 37.183.0-full
