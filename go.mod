@@ -15,7 +15,6 @@ require (
 	github.com/bufbuild/protovalidate-go v0.5.1
 	github.com/getsentry/sentry-go v0.27.0
 	github.com/getsentry/sentry-go/otel v0.27.0
-	github.com/go-playground/validator/v10 v10.17.0
 	github.com/google/uuid v1.6.0
 	github.com/improbable-eng/grpc-web v0.15.0
 	github.com/puzpuzpuz/xsync/v3 v3.0.2
@@ -45,4 +44,8 @@ require (
 	golang.org/x/crypto v0.19.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
+)
+
+require (
+	github.com/go-playground/validator/v10 v10.17.0
 )
